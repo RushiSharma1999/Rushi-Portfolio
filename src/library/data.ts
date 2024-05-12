@@ -67,6 +67,7 @@ export const navbarData = {
   navigator: [
     { name: 'Home' },
     { name: 'About' },
+    { name: 'Experience' },
     { name: 'Projects' },
     { name: 'Contact' },
   ],

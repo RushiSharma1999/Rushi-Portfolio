@@ -1,4 +1,5 @@
 export * from './about/about'
+export * from './experience/experience'
 export * from './contact/contact'
 export * from './footer/footer'
 export * from './projects/projects'

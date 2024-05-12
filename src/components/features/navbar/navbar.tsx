@@ -6,6 +6,7 @@ type NavProps = {
   scrollToSection: (elementRef: React.RefObject<HTMLDivElement>) => void
   homeRef: React.RefObject<HTMLDivElement>
   aboutRef: React.RefObject<HTMLDivElement>
+  experienceRef: React.RefObject<HTMLDivElement>
   projectsRef: React.RefObject<HTMLDivElement>
   contactRef: React.RefObject<HTMLDivElement>
 }
@@ -14,6 +15,7 @@ export function Navbar({
   scrollToSection,
   homeRef,
   aboutRef,
+  experienceRef,
   projectsRef,
   contactRef,
 }: NavProps) {
@@ -44,9 +46,12 @@ export function Navbar({
         scrollToSection(aboutRef)
         break
       case 2:
-        scrollToSection(projectsRef)
+        scrollToSection(experienceRef)
         break
       case 3:
+        scrollToSection(projectsRef)
+        break
+      case 4:
         scrollToSection(contactRef)
         break
       default:
@@ -74,8 +79,10 @@ export function Navbar({
               : activeLink === 1
               ? 'About'
               : activeLink === 2
+              ? 'Experience'
+              : activeLink === 3
               ? 'Projects'
-              : activeLink === 3 && 'Contact'
+              : activeLink === 4 && 'Contact'
           }`}
         />
       </div>
