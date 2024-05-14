@@ -29,6 +29,7 @@ export function Navbar({
       setIsScrolled(false)
     }
   }
+  //first branch
 
   window.addEventListener('scroll', changeBackground)
 
