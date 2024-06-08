@@ -1,6 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import './style.css'
+import '../../../library/Rushi_Profile.jpg'
 
 interface MotionBlockProps {
   as?: keyof JSX.IntrinsicElements
@@ -68,10 +69,10 @@ const Home = React.forwardRef<HTMLDivElement>((props, ref) => {
         </MotionBlock>
         <MotionBlock className="name" delay={0.4}>
           <MotionBlock as="h1" className="title" delay={0.8}>
-            Rushi Sharma {/* <- 🔄 Change this to your name or brand */}
+            Rushi Sharma
           </MotionBlock>
           <MotionBlock as="h2" className="subtitle" delay={0.8}>
-            Software Engineer {/* <- 🔄 Update this to reflect your role */}
+            Software Engineer
           </MotionBlock>
         </MotionBlock>
         <MotionBlock className="chunck" delay={0.2}>
@@ -95,6 +96,13 @@ const Home = React.forwardRef<HTMLDivElement>((props, ref) => {
           <MotionBlock className="four-line-prevention-V4" delay={1.2} />
         </MotionBlock>
       </div>
+      {/* <div className="image-container">
+        <img
+          src="../../../library/Rushi_Profile.jpg"
+          alt="Description"
+          className="profile-picture"
+        />
+      </div> */}
     </div>
   )
 })

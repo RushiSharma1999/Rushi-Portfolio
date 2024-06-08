@@ -24,18 +24,18 @@ export const projects = [
     externalUrl: '',
     languages: ['Andriod application', 'Firebase', 'CSS'],
   },
-  {
-    title: 'Netflix Clone',
-    githubUrl: '',
-    externalUrl: '',
-    languages: ['React', 'TypeScript', 'Firebase'],
-  },
-  {
-    title: 'Instagram Clone',
-    githubUrl: '',
-    externalUrl: 'https://instagram.com',
-    languages: ['React', 'TypeScript', 'CSS', 'Firebase'],
-  },
+  // {
+  //   title: 'Netflix Clone',
+  //   githubUrl: '',
+  //   externalUrl: '',
+  //   languages: ['React', 'TypeScript', 'Firebase'],
+  // },
+  // {
+  //   title: 'Instagram Clone',
+  //   githubUrl: '',
+  //   externalUrl: 'https://instagram.com',
+  //   languages: ['React', 'TypeScript', 'CSS', 'Firebase'],
+  // },
 ]
 
 // 📱 Social media links: Update with your URLs and choose appropriate icons.
@@ -45,11 +45,11 @@ export const socialLinks = [
     url: 'https://github.com/RushiSharma1999', // Enter GitHub link.
     icon: 'Github',
   },
-  {
-    name: 'Instagram',
-    url: '', // Enter GitHub link.
-    icon: 'Instagram',
-  },
+  // {
+  //   name: 'Instagram',
+  //   url: '', // Enter GitHub link.
+  //   icon: 'Instagram',
+  // },
   {
     name: 'LinkedIn',
     url: 'https://www.linkedin.com/in/rushisharma/', // Enter GitHub link.

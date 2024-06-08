@@ -72,7 +72,7 @@ export function Navbar({
           </span>
         ))}
 
-        <div
+        {/* <div
           className={`nav-slider ${
             activeLink === 0
               ? 'Home'
@@ -84,7 +84,7 @@ export function Navbar({
               ? 'Projects'
               : activeLink === 4 && 'Contact'
           }`}
-        />
+        /> */}
       </div>
     </div>
   )
