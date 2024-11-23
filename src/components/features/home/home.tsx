@@ -74,6 +74,13 @@ const Home = React.forwardRef<HTMLDivElement>((props, ref) => {
           <MotionBlock as="h2" className="subtitle" delay={0.8}>
             Software Engineer
           </MotionBlock>
+          <MotionBlock className="profile-image-container" delay={0.8}>
+            <img
+              src="../../../library/Rushi_Profile.jpg"
+              alt="Rushi Sharma"
+              className="profile-picture"
+            />
+          </MotionBlock>
         </MotionBlock>
         <MotionBlock className="chunck" delay={0.2}>
           <MotionBlock className="two-line-primary-V1" delay={0.6} />
