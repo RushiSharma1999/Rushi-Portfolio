@@ -54,7 +54,14 @@
   height: 200px;
   border-radius: 50%;
   margin-right: 20px;
-  background: var(--color-light-gray);
+  /* background: var(--color-light-gray); */
+}
+
+.profile-picture {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .subtitle {
