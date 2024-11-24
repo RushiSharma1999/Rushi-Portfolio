@@ -104,7 +104,7 @@ const Home = React.forwardRef<HTMLDivElement>((props, ref) => {
           />
         </MotionBlock> */}
       </div>
-      <div className="image-container">
+      <div className="profile-image-container">
         <img
           src="../../../library/Rushi_Profile.jpg"
           alt="Rushi Sharma"
