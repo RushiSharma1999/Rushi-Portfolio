@@ -109,7 +109,7 @@ const Home = React.forwardRef<HTMLDivElement>((props, ref) => {
       <MotionBlock className="profile-image-container" delay={0.2}>
         {/* <Image src={profilePic} /> */}
         <img
-          src="/Rushi_Profile.jpg"
+          src="https://i.imgur.com/EbLvnZ0.jpeg"
           alt="Rushi Sharma"
           className="profile-picture"
         />
