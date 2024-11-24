@@ -1,7 +1,9 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import './style.css'
-import '../../../library/Rushi_Profile.jpg'
+//import 'public/Rushi_Profile.jpg'
+import Image from 'next/image'
+import profilePic from '../../../public/Rushi_Profile.jpg'
 
 interface MotionBlockProps {
   as?: keyof JSX.IntrinsicElements
@@ -40,7 +42,7 @@ const MotionBlock = ({ className, delay, children }: MotionBlockProps) => (
 const Home = React.forwardRef<HTMLDivElement>((props, ref) => {
   return (
     <div ref={ref} className="wrapper">
-      <MotionBlock className="arrow" delay={0.2} />
+      {/* <MotionBlock className="arrow" delay={0.2} /> */}
       <div className="bundle">
         <MotionBlock className="chunck" delay={0.2}>
           <MotionBlock className="three-line-primary-V1" delay={0.6} />
@@ -104,13 +106,14 @@ const Home = React.forwardRef<HTMLDivElement>((props, ref) => {
           />
         </MotionBlock> */}
       </div>
-      <div className="profile-image-container">
+      <MotionBlock className="profile-image-container" delay={0.2}>
+        {/* <Image src={profilePic} /> */}
         <img
-          src="../../../library/Rushi_Profile.jpg"
+          src="/Rushi_Profile.jpg"
           alt="Rushi Sharma"
           className="profile-picture"
         />
-      </div>
+      </MotionBlock>
     </div>
   )
 })
