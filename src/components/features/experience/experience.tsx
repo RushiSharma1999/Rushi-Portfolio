@@ -12,7 +12,67 @@ const Experience = React.forwardRef<HTMLDivElement>((props, ref) => {
         className="about-experience-item"
         style={{ marginTop: '60px', color: 'white' }}
       >
-        <div className="about-experience-date">June 2023 - Present</div>
+        <div className="about-experience-date">August 2023 - Present</div>
+        <div>
+          <h2
+            className="about-experience-title"
+            style={{ marginTop: '10px', color: 'white' }}
+          >
+            <span
+              style={{
+                marginTop: '10px',
+                marginBottom: '10px',
+                display: 'flex',
+                alignItems: 'center',
+                gap: '5px',
+                color: '#819bf7',
+              }}
+            >
+              <a
+                //href="https://lifestages.us/"
+                //target="_blank"
+                className="about-experience-link"
+              >
+                <span>CloudData Technologies </span>
+                {/* Your SVG icon here */}
+              </a>
+            </span>
+          </h2>
+          <h2>
+            <span style={{ marginTop: '100px' }}>
+              {' '}
+              Software Engineer (Contract)
+            </span>
+          </h2>
+          {/* <p className="about-experience-description" style={{marginTop:'10px', color:'#adadad'}} > */}
+          <p className="about-text">
+            At CloudData Technologies, I focus on developing and optimizing
+            backend features for a fieldwork tracking system. Using Node.js and
+            Express, I integrated MongoDB to log over 1,000+ entries monthly,
+            ensuring efficient data storage. I implemented secure authentication
+            workflows with Firebase Authentication, enabling role-based access
+            for 150+ users and achieving a 99.9% login success rate.
+            Additionally, I designed and refined 20+ RESTful API endpoints to
+            enable seamless data flow between the React.js frontend and backend
+            systems.{' '}
+          </p>
+          <div
+            className="about-experience-technologies"
+            style={{ marginTop: '10px', color: '#819bf7' }}
+          >
+            <b>
+              Node.js, Express, MongoDB, Firebase Authentication, RESTful APIs,
+              React.js
+            </b>
+            {/* React, TypeScript, Chakra-UI, GitHub */}
+          </div>
+        </div>
+      </div>
+      <div
+        className="about-experience-item"
+        style={{ marginTop: '60px', color: 'white' }}
+      >
+        <div className="about-experience-date">July 2023 - August 2024</div>
         <div>
           <h2
             className="about-experience-title"
@@ -137,7 +197,7 @@ const Experience = React.forwardRef<HTMLDivElement>((props, ref) => {
           </div>
         </div>
       </div>
-      <div
+      {/* <div
         className="about-experience-item"
         style={{ marginTop: '60px', color: 'white' }}
       >
@@ -163,14 +223,12 @@ const Experience = React.forwardRef<HTMLDivElement>((props, ref) => {
                 className="about-experience-link"
               >
                 <span>Infinity Valves and Fittings </span>
-                {/* Your SVG icon here */}
               </a>
             </span>
           </h2>
           <h2>
             <span style={{ marginTop: '100px' }}> Web Developer</span>
           </h2>
-          {/* <p className="about-experience-description" style={{marginTop:'10px', color:'#adadad'}} > */}
           <p className="about-text">
             At Infinity Valves and Fittings, I developed the company’s website
             using Java and Spring Boot for robust back-end services. I created
@@ -195,7 +253,7 @@ const Experience = React.forwardRef<HTMLDivElement>((props, ref) => {
             </b>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* Add more experience items following the same pattern */}
     </div>
   )
