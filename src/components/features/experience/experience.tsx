@@ -46,15 +46,13 @@ const Experience = React.forwardRef<HTMLDivElement>((props, ref) => {
           </h2>
           {/* <p className="about-experience-description" style={{marginTop:'10px', color:'#adadad'}} > */}
           <p className="about-text">
-            At CloudData Technologies, I focus on developing and optimizing
-            backend features for a fieldwork tracking system. Using Node.js and
-            Express, I integrated MongoDB to log over 1,000+ entries monthly,
-            ensuring efficient data storage. I implemented secure authentication
-            workflows with Firebase Authentication, enabling role-based access
-            for 150+ users and achieving a 99.9% login success rate.
-            Additionally, I designed and refined 20+ RESTful API endpoints to
-            enable seamless data flow between the React.js frontend and backend
-            systems.{' '}
+            At CloudData Technologies, I am developing and optimizing backend
+            features for a client’s tracking system using Node.js and Express,
+            leveraging a NoSQL database for efficient data management.
+            Additionally, I have designed secure authentication workflows to
+            enhance access control and user management and created RESTful API
+            endpoints to ensure seamless communication between the frontend and
+            backend, enabling robust tracking and visualization capabilities.{' '}
           </p>
           <div
             className="about-experience-technologies"
@@ -106,20 +104,19 @@ const Experience = React.forwardRef<HTMLDivElement>((props, ref) => {
           </h2>
           {/* <p className="about-experience-description" style={{marginTop:'10px', color:'#adadad'}} > */}
           <p className="about-text">
-            At LifeSages, I am leading the development of a pioneering mobile
-            app from inception to implementation. I am overseeing team members,
-            organized into frontend and backend teams, delegating tasks, and
-            guiding the SDLC. To enhance user engagement, we are crafting
-            dynamic React Native UI components wireframed using Figma.
-            Developing an express server using NodeJS for seamless database
-            interaction. Firebase Authentication and Cloud Firestore are
-            facilitating streamlined user management and efficient data storage.
-            I am implementing Async Storage for state management, reducing UI
-            rendering time. Jest is being used for unit and integration tests,
-            ensuring comprehensive coverage. Error tracking with Sentry.io and
-            project management with Jira are streamlining the development
-            processes. GitHub is facilitating seamless collaboration among team
-            members.{' '}
+            At LifeSages, I led the development of a pioneering mobile app from
+            inception to implementation. I oversaw team members, organized into
+            frontend and backend teams, delegated tasks, and guided the SDLC. To
+            enhance user engagement, we crafted dynamic React Native UI
+            components wireframed using Figma. I developed an Express server
+            using Node.js for seamless database interaction. Firebase
+            Authentication and Cloud Firestore facilitated streamlined user
+            management and efficient data storage. I implemented Async Storage
+            for state management, reducing UI rendering time. Jest was used for
+            unit and integration tests, ensuring comprehensive coverage. Error
+            tracking with Sentry.io and project management with Jira streamlined
+            the development processes. GitHub facilitated seamless collaboration
+            among team members.{' '}
           </p>
           <div
             className="about-experience-technologies"
