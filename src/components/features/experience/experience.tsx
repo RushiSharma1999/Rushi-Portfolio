@@ -12,7 +12,7 @@ const Experience = React.forwardRef<HTMLDivElement>((props, ref) => {
         className="about-experience-item"
         style={{ marginTop: '60px', color: 'white' }}
       >
-        <div className="about-experience-date">August 2023 - Present</div>
+        <div className="about-experience-date">August 2024 - Present</div>
         <div>
           <h2
             className="about-experience-title"
