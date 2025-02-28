@@ -12,7 +12,66 @@ const Experience = React.forwardRef<HTMLDivElement>((props, ref) => {
         className="about-experience-item"
         style={{ marginTop: '60px', color: 'white' }}
       >
-        <div className="about-experience-date">August 2024 - Present</div>
+        <div className="about-experience-date">December 2024 - Present</div>
+        <div>
+          <h2
+            className="about-experience-title"
+            style={{ marginTop: '10px', color: 'white' }}
+          >
+            <span
+              style={{
+                marginTop: '10px',
+                marginBottom: '10px',
+                display: 'flex',
+                alignItems: 'center',
+                gap: '5px',
+                color: '#819bf7',
+              }}
+            >
+              <a
+                //href="https://lifestages.us/"
+                //target="_blank"
+                className="about-experience-link"
+              >
+                <span>Wellomy Inc. </span>
+                {/* Your SVG icon here */}
+              </a>
+            </span>
+          </h2>
+          <h2>
+            <span style={{ marginTop: '100px' }}>
+              Application Developer (Contract)
+            </span>
+          </h2>
+          {/* <p className="about-experience-description" style={{marginTop:'10px', color:'#adadad'}} > */}
+          <p className="about-text">
+            At Wellomy, I am developing a cross-platform mobile application
+            using React Native, ensuring a seamless experience across Web, iOS,
+            and Android. I focus on creating reusable UI components, integrating
+            secure REST APIs for real-time data synchronization, and managing
+            global state with Redux Toolkit. Optimizing navigation has improved
+            user interactions, while custom hooks and middleware enhance
+            modularity. I deployed the frontend on a DigitalOcean Droplet for
+            scalability and faster load times. Collaborating with designers in
+            Figma ensures pixel-perfect UI, while Agile workflows in Jira keep
+            development structured and efficient.{' '}
+          </p>
+          <div
+            className="about-experience-technologies"
+            style={{ marginTop: '10px', color: '#819bf7' }}
+          >
+            <b>
+              React Native, Redux Toolkit, REST APIs, DigitalOcean, Figma, Jira
+            </b>
+            {/* React, TypeScript, Chakra-UI, GitHub */}
+          </div>
+        </div>
+      </div>
+      <div
+        className="about-experience-item"
+        style={{ marginTop: '60px', color: 'white' }}
+      >
+        <div className="about-experience-date">August 2024 - November 2024</div>
         <div>
           <h2
             className="about-experience-title"
@@ -98,7 +157,6 @@ const Experience = React.forwardRef<HTMLDivElement>((props, ref) => {
           </h2>
           <h2>
             <span style={{ marginTop: '100px' }}>
-              {' '}
               Software Engineer - Project Lead
             </span>
           </h2>
